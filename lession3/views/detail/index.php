@@ -2,8 +2,8 @@
 <hr>
 <ul>
     <li>
-        <h3><?php echo $dataNews[$id]['key']?></h3>
-        <p><?php echo $dataNews[$id]['content']?></p>
+        <h3><?php echo $data[$id]['key']?></h3>
+        <p><?php echo $data[$id]['content']?></p>
     </li>
 </ul>
 
