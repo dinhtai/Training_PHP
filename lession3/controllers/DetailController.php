@@ -12,14 +12,13 @@ class DetailController extends Controller
     {
         $this->dataNews->data = Data::getData();
         $id = $_GET['id'];
-        if(isset($this->dataNews->data[$id])){
+        if (isset($this->dataNews->data[$id])) {
             $this->dataNews->id = $_GET['id'];
-        }else{
+        } else {
             // redirect to home
             header('Location: /views/error.php?message=Data not found');
         }
         $this->loadView();
     }
-
 
 }

@@ -17,6 +17,7 @@ class Controller
         $this->view = '';
         $this->action = '';
         $this->dataNews = new ArrayObject([], ArrayObject::STD_PROP_LIST);
+        $this->dataRelations = new ArrayObject([], ArrayObject::STD_PROP_LIST);
         $this->parseData($options);
     }
 
@@ -31,7 +32,8 @@ class Controller
     {
         // check view
         $view = $view ? $view : $this->view;
-        extract((array) $this->dataNews);
+        extract((array)$this->dataNews);
+        extract((array)$this->dataRelations);
         require(BASE_PATH . "/views/{$view}/index.php");
     }
 
