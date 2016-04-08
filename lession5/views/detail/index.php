@@ -12,7 +12,7 @@
     <?php foreach ($data as $key => $item) { ?>
     <?php if ($key == $id) continue ?>
     <li>
-        <a href="detail&id=<?php echo $key ?>"><?php echo $item['key'] ?></a>
+        <a href="<?php echo $item['link'] ?>"><?php echo $item['key'] ?></a>
         <?php } ?>
     </li>
 </ul>

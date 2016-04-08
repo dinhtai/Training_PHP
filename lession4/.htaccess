@@ -1,0 +1,19 @@
+AddDefaultCharset UTF-8
+
+Options -Indexes
+Options +FollowSymLinks
+
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteCond %{REQUEST_URI} !/assets
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?route=$1
+  RewriteRule ^([a-zA-Z0-9_-]+)/$ index.php?route=$1
+  RewriteRule ^index/([a-zA-Z0-9_-]+)/([0-9]+).html$ index.php?route=$2
+  RewriteRule ^detail/(\d*)$ index.php?route=detail&id=$1 [L]
+  RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]
+</IfModule>
