@@ -1,19 +1,15 @@
 <?php
 
-
 define('BASE_PATH', dirname(__FILE__));
 require(BASE_PATH . '/helper/autoload.php');
 
-$route = ($_GET['route'] == '') ?'home' : $_GET['route'];
-
+$route = ($_GET['route'] == '') ? 'home' : $_GET['route'];
 $action = 'init';
-$view = 'home';  // mặc định nhảy vào trang home
+$view = 'home';
 
 $view = $route;
 $controllerName = ucfirst($view) . 'Controller';
 $controllerAction = $action . 'Action';
-
-
 
 // khoi tao controller
 $controllerInstance = null;
@@ -37,4 +33,5 @@ if (method_exists($controllerInstance, $controllerAction)) {
 
 
 ?>
+
 

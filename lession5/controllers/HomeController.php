@@ -10,7 +10,15 @@ class HomeController extends Controller
 {
     public function initAction()
     {
-        $this->dataNews->data = Data::getData();
+
+        $this->database->query('SELECT id, title, content,modified FROM articles');
+        $dataArray = $this->database->resultset();
+        foreach ($dataArray as $key => $value) {
+            $dataArray[$key]['link'] = '/detail&id=' . $key;
+        }
+
+        $this->dataNews->data = $dataArray;
         $this->loadView();
+        $this->database->closeConnect();
     }
 }

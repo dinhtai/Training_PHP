@@ -10,14 +10,19 @@ class Controller
 {
     var $view;
     var $action;
+    var $database;
+    var $article;
 
     public function __construct($options = [])
     {
         // get view, action tuong ung
         $this->view = '';
         $this->action = '';
+        $this->article = '';
         $this->dataNews = new ArrayObject([], ArrayObject::STD_PROP_LIST);
-        $this->dataRelations = new ArrayObject([], ArrayObject::STD_PROP_LIST);
+
+        // init database connect
+        $this->database = new Database();
         $this->parseData($options);
     }
 
@@ -33,7 +38,6 @@ class Controller
         // check view
         $view = $view ? $view : $this->view;
         extract((array)$this->dataNews);
-        extract((array)$this->dataRelations);
         require(BASE_PATH . "/views/{$view}/index.php");
     }
 
