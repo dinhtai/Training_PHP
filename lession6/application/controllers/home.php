@@ -20,7 +20,7 @@ class Home extends CI_Controller
     /**
      * Method handler show detail page when click link
      */
-    function  detail(){
+    public function  detail(){
         var_dump($_REQUEST);
         $this->load->model('detail_model');
         $this->load->wview('detail_view');

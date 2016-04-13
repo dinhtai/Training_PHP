@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcd68e60-a31a-4a4a-a91d-286b25adf94f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/controllers/detail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/controllers/home.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/models/database_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/models/detail_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/models/home_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/views/detail_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/views/home_view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/controllers/about.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/controllers/create.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/models/about_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/models/create_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/views/about_view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/views/create_view.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/.htaccess" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lession5/models/Database.php" afterPath="$PROJECT_DIR$/lession5/models/Database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lession6/application/controllers/detail.php" afterPath="$PROJECT_DIR$/lession6/application/controllers/detail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lession6/application/controllers/home.php" afterPath="$PROJECT_DIR$/lession6/application/controllers/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lession6/application/models/detail_model.php" afterPath="$PROJECT_DIR$/lession6/application/models/detail_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lession6/application/views/detail_view.php" afterPath="$PROJECT_DIR$/lession6/application/views/detail_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lession6/application/views/home_view.php" afterPath="$PROJECT_DIR$/lession6/application/views/home_view.php" />
     </list>
     <ignored path="Training_PHP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,21 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession6/application/controllers/home.php">
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lession6/application/controllers/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CodeIgniter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession6/system/core/CodeIgniter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="21.375">
-              <caret line="416" column="31" selection-start-line="416" selection-start-column="31" selection-end-line="416" selection-end-column="31" />
+            <state vertical-scroll-proportion="-10.625">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -55,69 +50,96 @@
       <file leaf-file-name="detail.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lession6/application/controllers/detail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.25">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            <state vertical-scroll-proportion="-10.625">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lession6/application/config/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8492462">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home_view.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home_view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lession6/application/views/home_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.25">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.40201005">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession6/application/.htaccess">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lession6/application/config/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <state vertical-scroll-proportion="-29.0">
+              <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession6/application/config/config.php">
+      <file leaf-file-name="create_model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lession6/application/models/create_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5">
-              <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+            <state vertical-scroll-proportion="-7.5">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession6/application/index.html">
+      <file leaf-file-name="create_view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lession6/application/views/create_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-2.5">
+              <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autoload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession6/application/config/autoload.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lession5/views/admin/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+            <state vertical-scroll-proportion="-8.125">
+              <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about_model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lession6/application/models/about_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.25">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lession6/application/controllers/about.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.25">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail_model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lession6/application/models/detail_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.375">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <marker date="1460516019000" expanded="true" signature="433:478" placeholder="SELECT id, t... articles" />
+                <marker date="1460516019000" expanded="true" signature="433:489" placeholder="SELECT title... articles" />
+                <marker date="1460516019000" expanded="true" signature="433:490" placeholder="SELECT title... articles" />
+                <marker date="1460516019000" expanded="true" signature="433:493" placeholder="SELECT title... articles" />
+                <marker date="1460516019000" expanded="true" signature="433:496" placeholder="SELECT title... articles" />
+                <marker date="1460516019000" expanded="true" signature="433:497" placeholder="SELECT title... articles" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,13 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lession2/views/error.php" />
-        <option value="$PROJECT_DIR$/lession2/helper/autoload.php" />
-        <option value="$PROJECT_DIR$/lession2/index.php" />
-        <option value="$PROJECT_DIR$/lession2/controllers/detail.php" />
-        <option value="$PROJECT_DIR$/lession2/controllers/home.php" />
-        <option value="$PROJECT_DIR$/lession3/controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/lession3/views/home/index.php" />
         <option value="$PROJECT_DIR$/lession3/index.php" />
         <option value="$PROJECT_DIR$/lession3/views/error.php" />
         <option value="$PROJECT_DIR$/lession3/models/Data.php" />
@@ -166,21 +181,28 @@
         <option value="$PROJECT_DIR$/lession6/system/core/Common.php" />
         <option value="$PROJECT_DIR$/lession5/controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/lession6/vendor/codeigniter/framework/application/config/config.php" />
-        <option value="$PROJECT_DIR$/lession6/application/config/routes.php" />
         <option value="$PROJECT_DIR$/lession6/application/config/database.php" />
         <option value="$PROJECT_DIR$/lession6/application/models/database_model.php" />
         <option value="$PROJECT_DIR$/lession6/application/models/home_model.php" />
-        <option value="$PROJECT_DIR$/lession6/application/models/detail_model.php" />
         <option value="$PROJECT_DIR$/lession6/application/controllers/Detail.php" />
-        <option value="$PROJECT_DIR$/lession6/application/views/detail_view.php" />
         <option value="$PROJECT_DIR$/lession6/application/controllers/Home.php" />
         <option value="$PROJECT_DIR$/lession6/application/config/autoload.php" />
-        <option value="$PROJECT_DIR$/lession6/application/controllers/home.php" />
-        <option value="$PROJECT_DIR$/lession6/application/views/home_view.php" />
-        <option value="$PROJECT_DIR$/lession6/application/.htaccess" />
         <option value="$PROJECT_DIR$/lession6/index.php" />
         <option value="$PROJECT_DIR$/lession6/application/config/config.php" />
+        <option value="$PROJECT_DIR$/lession6/application/controllers/about.php" />
+        <option value="$PROJECT_DIR$/lession6/application/.htaccess" />
+        <option value="$PROJECT_DIR$/lession6/.htaccess" />
+        <option value="$PROJECT_DIR$/lession6/application/views/about_view.php" />
+        <option value="$PROJECT_DIR$/lession6/application/controllers/home.php" />
+        <option value="$PROJECT_DIR$/lession6/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/lession6/application/models/detail_model.php" />
+        <option value="$PROJECT_DIR$/lession6/application/views/detail_view.php" />
+        <option value="$PROJECT_DIR$/lession6/application/models/about_model.php" />
+        <option value="$PROJECT_DIR$/lession6/application/models/create_model.php" />
+        <option value="$PROJECT_DIR$/lession6/application/views/create_view.php" />
+        <option value="$PROJECT_DIR$/lession6/application/controllers/create.php" />
         <option value="$PROJECT_DIR$/lession6/application/controllers/detail.php" />
+        <option value="$PROJECT_DIR$/lession6/application/views/home_view.php" />
       </list>
     </option>
   </component>
@@ -304,7 +326,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -326,7 +348,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -410,11 +432,12 @@
     <frame x="64" y="54" width="1201" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22647794" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2298085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -447,69 +470,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lession4/controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession3/models/Data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession2/views/home/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07537688">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession2/views/detail/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.050251257">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession3/views/detail/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2763819">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession3/controllers/DetailController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4522613">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession3/controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30150753">
-          <caret line="12" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession4/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34673366">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession4/controllers/DetailController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lession4/views/home/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22613065">
@@ -552,45 +512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/views/about/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/controllers/AboutController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/views/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32663316">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_defines.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17085427">
           <caret line="704" column="34" selection-start-line="704" selection-start-column="34" selection-end-line="704" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.625">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -650,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/models/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="13.166667">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lession5/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.125">
@@ -664,45 +582,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/models/database_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.458334">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lession5/views/home/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32663316">
           <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/views/detail/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/models/detail_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/views/detail_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/models/home_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -721,25 +604,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/controllers/DetailController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37688443">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lession6/application/config/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -751,26 +619,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/controllers/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lession6/system/core/CodeIgniter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="21.375">
           <caret line="416" column="31" selection-start-line="416" selection-start-column="31" selection-end-line="416" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/views/home_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -783,14 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lession6/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.5">
@@ -799,18 +643,234 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/controllers/detail.php">
+    <entry file="file://$PROJECT_DIR$/lession5/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession5/views/about/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42713568">
+          <caret line="53" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="971" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession6/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31400967">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession6/application/views/about_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="939" column="31" selection-start-line="939" selection-start-column="31" selection-end-line="939" selection-end-column="31" />
+          <folding>
+            <marker date="1460513493000" expanded="true" signature="45126:45653" placeholder="..." />
+            <marker date="1460513493000" expanded="true" signature="45279:45416" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession3/controllers/DetailController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.25">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession6/application/views/errors/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2763819">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession5/models/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="18.25">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession5/controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <marker date="1460370745000" expanded="true" signature="1124:1226" placeholder="INSERT INTO articles... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession5/controllers/AboutController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession5/controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.875">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession2/controllers/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession6/application/models/home_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="16" />
+          <folding>
+            <marker date="1460453935000" expanded="true" signature="351:400" placeholder="SELECT id, t... articles" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession6/application/models/database_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.791666">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession5/views/detail/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession5/controllers/DetailController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.875">
+          <caret line="27" column="9" selection-start-line="22" selection-start-column="7" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <marker date="1460364962000" expanded="true" signature="200:239" placeholder="SELECT id, t... articles" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession6/application/controllers/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession6/application/views/detail_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession6/application/models/about_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession6/application/models/create_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession5/views/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession6/application/views/create_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession6/application/controllers/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession6/application/controllers/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lession6/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8492462">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state vertical-scroll-proportion="-29.0">
+          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession6/application/models/detail_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.375">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1460516019000" expanded="true" signature="433:478" placeholder="SELECT id, t... articles" />
+            <marker date="1460516019000" expanded="true" signature="433:489" placeholder="SELECT title... articles" />
+            <marker date="1460516019000" expanded="true" signature="433:490" placeholder="SELECT title... articles" />
+            <marker date="1460516019000" expanded="true" signature="433:493" placeholder="SELECT title... articles" />
+            <marker date="1460516019000" expanded="true" signature="433:496" placeholder="SELECT title... articles" />
+            <marker date="1460516019000" expanded="true" signature="433:497" placeholder="SELECT title... articles" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession6/application/controllers/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession6/application/views/home_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40201005">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding />
         </state>
       </provider>

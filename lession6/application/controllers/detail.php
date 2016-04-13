@@ -15,8 +15,11 @@ class Detail extends CI_Controller
 
     public function index()
     {
-        $this->load->model('detal_model');
-        $this->load->view('detai_view');
+        $id = $_GET['id'] + 1;
+        $this->load->model('detail_model');
+        // get article where id = $_GET['id']
+        $data['data'] = $this->detail_model->get_article_id($id);
+        $this->load->view('detail_view', $data);
     }
 
 }
