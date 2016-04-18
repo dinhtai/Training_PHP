@@ -1,0 +1,14 @@
+<div class="blog-post">
+    <h2 class="blog-post-title"><?php echo $node->title ?></h2>
+    <p class="blog-post-meta"><?php echo $node->created ?> by <a href="#">Mark</a></p>
+    <p><?php echo $node->content ?></p>
+</div><!-- /.blog-post -->
+
+<ul>
+    <?php foreach ($nodes as $k => $item) { ?>
+        <?php if ($node->id == $k) continue ?>
+        <li>
+            <a href="<?php echo $k ?>"><?php echo $item->title ?></a>
+        </li>
+    <?php } ?>
+</ul>

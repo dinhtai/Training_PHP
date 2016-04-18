@@ -1,0 +1,8 @@
+{
+    "name": "Codeigniter Training",
+    "description": "Package to install CodeIgniter3 via Composer with secure folder structure.",
+    "license": "MIT",
+    "require": {
+            "codeigniter/framework": "3.0.*"
+    }
+}
