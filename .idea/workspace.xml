@@ -2,20 +2,587 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcd68e60-a31a-4a4a-a91d-286b25adf94f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/controllers/about.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/controllers/create.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/models/about_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/models/create_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/views/about_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lession6/application/views/create_view.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/DCO.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/cache/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/cache/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/config/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/config/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/config/constants.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/config/database.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/config/doctypes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/config/foreign_chars.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/config/hooks.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/config/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/config/matches.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/config/memcached.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/config/migration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/config/mimes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/config/profiler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/config/routes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/config/smileys.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/config/user_agents.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/controllers/Matches.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/controllers/about.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/controllers/create.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/controllers/detail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/controllers/home.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/controllers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/core/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/helpers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/hooks/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/language/english/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/language/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/libraries/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/logs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/models/about_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/models/create_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/models/database_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/models/detail_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/models/home_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/models/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/third_party/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/about_view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/create_view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/detail_view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/errors/cli/error_404.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/errors/cli/error_db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/errors/cli/error_exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/errors/cli/error_general.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/errors/cli/error_php.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/errors/cli/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/errors/html/error_404.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/errors/html/error_db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/errors/html/error_exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/errors/html/error_general.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/errors/html/error_php.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/errors/html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/errors/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/home_view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/matches_templates/controller_template.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/matches_templates/migration_template.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/matches_templates/model_template.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/matches_templates/view_template.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/application/views/welcome_message.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/contributing.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/phpdoc.dist.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/readme.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/Benchmark.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/CodeIgniter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/Common.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/Config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/Exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/Hooks.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/Input.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/Lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/Loader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/Log.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/Model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/Output.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/Router.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/Security.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/URI.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/Utf8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/compat/hash.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/compat/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/compat/mbstring.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/compat/password.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/compat/standard.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/core/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/DB.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/DB_cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/DB_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/DB_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/DB_query_builder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/DB_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/DB_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/cubrid/cubrid_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/cubrid/cubrid_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/cubrid/cubrid_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/cubrid/cubrid_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/cubrid/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/ibase/ibase_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/ibase/ibase_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/ibase/ibase_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/ibase/ibase_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/ibase/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/mssql/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/mssql/mssql_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/mssql/mssql_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/mssql/mssql_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/mssql/mssql_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/mysql/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/mysql/mysql_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/mysql/mysql_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/mysql/mysql_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/mysql/mysql_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/mysqli/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/mysqli/mysqli_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/mysqli/mysqli_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/mysqli/mysqli_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/mysqli/mysqli_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/oci8/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/oci8/oci8_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/oci8/oci8_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/oci8/oci8_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/oci8/oci8_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/odbc/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/odbc/odbc_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/odbc/odbc_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/odbc/odbc_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/odbc/odbc_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/pdo_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/pdo_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/pdo_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/pdo_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_4d_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_4d_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_cubrid_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_cubrid_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_dblib_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_dblib_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_firebird_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_firebird_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_ibm_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_ibm_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_informix_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_informix_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_mysql_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_mysql_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_oci_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_oci_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_odbc_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_odbc_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_pgsql_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_pgsql_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_sqlite_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_sqlite_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_sqlsrv_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/pdo/subdrivers/pdo_sqlsrv_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/postgre/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/postgre/postgre_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/postgre/postgre_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/postgre/postgre_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/postgre/postgre_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/sqlite/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/sqlite/sqlite_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/sqlite/sqlite_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/sqlite/sqlite_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/sqlite/sqlite_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/sqlite3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/sqlite3/sqlite3_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/sqlite3/sqlite3_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/sqlite3/sqlite3_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/sqlite3/sqlite3_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/sqlsrv/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/sqlsrv/sqlsrv_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/sqlsrv/sqlsrv_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/sqlsrv/sqlsrv_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/drivers/sqlsrv/sqlsrv_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/database/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/fonts/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/fonts/texb.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/array_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/captcha_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/cookie_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/date_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/directory_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/download_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/email_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/file_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/form_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/html_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/inflector_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/language_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/number_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/path_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/security_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/smiley_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/string_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/text_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/typography_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/url_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/helpers/xml_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/language/english/calendar_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/language/english/date_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/language/english/db_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/language/english/email_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/language/english/form_validation_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/language/english/ftp_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/language/english/imglib_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/language/english/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/language/english/migration_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/language/english/number_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/language/english/pagination_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/language/english/profiler_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/language/english/unit_test_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/language/english/upload_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/language/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Cache/Cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Cache/drivers/Cache_apc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Cache/drivers/Cache_dummy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Cache/drivers/Cache_file.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Cache/drivers/Cache_memcached.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Cache/drivers/Cache_redis.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Cache/drivers/Cache_wincache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Cache/drivers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Cache/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Calendar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Cart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Email.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Encrypt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Encryption.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Form_validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Ftp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Image_lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Javascript.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Javascript/Jquery.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Javascript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Migration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Parser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Profiler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Session/Session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Session/SessionHandlerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Session/Session_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Session/drivers/Session_database_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Session/drivers/Session_files_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Session/drivers/Session_memcached_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Session/drivers/Session_redis_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Session/drivers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Session/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Trackback.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Typography.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Unit_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Upload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/User_agent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Xmlrpc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Xmlrpcs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/Zip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/system/libraries/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/Bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/Setup_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/core/Benchmark_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/core/Common_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/core/Config_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/core/Input_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/core/Lang_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/core/Loader_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/core/Log_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/core/Model_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/core/Output_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/core/Security_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/core/URI_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/core/Utf8_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/core/compat/hash_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/core/compat/mbstring_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/core/compat/password_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/core/compat/standard_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/DB_driver_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/DB_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/query_builder/count_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/query_builder/delete_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/query_builder/distinct_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/query_builder/empty_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/query_builder/escape_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/query_builder/from_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/query_builder/get_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/query_builder/group_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/query_builder/insert_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/query_builder/join_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/query_builder/like_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/query_builder/limit_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/query_builder/order_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/query_builder/select_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/query_builder/truncate_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/query_builder/update_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/database/query_builder/where_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/array_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/captcha_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/cookie_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/date_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/directory_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/download_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/email_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/file_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/form_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/html_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/inflector_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/language_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/number_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/path_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/security_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/string_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/text_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/url_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/helpers/xml_helper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/libraries/Calendar_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/libraries/Driver_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/libraries/Encrypt_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/libraries/Encryption_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/libraries/Form_validation_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/libraries/Parser_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/libraries/Session_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/libraries/Table_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/libraries/Typography_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/libraries/Upload_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/codeigniter/libraries/Useragent_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/autoloader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/ci_testcase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/ci_testconfig.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/core/common.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/core/input.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/core/security.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/core/uri.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/core/utf8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/database/ci_test.sqlite" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/database/config/mysql.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/database/config/mysqli.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/database/config/pdo/mysql.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/database/config/pdo/pgsql.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/database/config/pdo/sqlite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/database/config/pgsql.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/database/config/sqlite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/database/db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/database/db/driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/database/drivers/mysql.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/database/drivers/mysqli.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/database/drivers/pdo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/database/drivers/postgre.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/database/drivers/sqlite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/database/schema/skeleton.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/libraries/driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/libraries/encrypt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/libraries/encryption.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/libraries/session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/libraries/table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/mocks/uploads/ci_logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/travis/mysql.phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/travis/mysqli.phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/travis/pdo/mysql.phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/travis/pdo/pgsql.phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/travis/pdo/sqlite.phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/travis/pgsql.phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/tests/travis/sqlite.phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/README.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/cilexer/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/cilexer/cilexer/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/cilexer/cilexer/cilexer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/cilexer/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/DCO.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/breadcrumbs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/layout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/layout_old.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/pulldown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/searchbox.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/static/css/badge_only.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/static/css/citheme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/static/css/theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/static/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/static/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/static/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/static/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/static/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/static/js/oldtheme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/static/js/theme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/theme.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/_themes/sphinx_rtd_theme/versions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/changelog.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/conf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/contributing/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/database/caching.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/database/call_function.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/database/configuration.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/database/connecting.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/database/db_driver_reference.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/database/examples.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/database/forge.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/database/helpers.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/database/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/database/metadata.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/database/queries.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/database/query_builder.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/database/results.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/database/transactions.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/database/utilities.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/documentation/ELDocs.tmbundle.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/documentation/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/alternative_php.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/ancillary_classes.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/autoloader.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/caching.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/cli.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/common_functions.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/compatibility_functions.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/controllers.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/core_classes.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/creating_drivers.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/creating_libraries.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/credits.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/drivers.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/environments.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/errors.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/helpers.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/hooks.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/libraries.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/managing_apps.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/models.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/profiling.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/requirements.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/reserved_names.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/routing.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/security.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/styleguide.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/urls.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/views.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/general/welcome.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/array_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/captcha_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/cookie_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/date_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/directory_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/download_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/email_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/file_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/form_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/html_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/inflector_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/language_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/number_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/path_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/security_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/smiley_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/string_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/text_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/typography_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/url_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/helpers/xml_helper.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/images/appflowchart.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/images/arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/images/ci-icon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/images/ci_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/images/ci_logo_flame.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/images/file.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/images/folder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/images/smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/downloads.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/troubleshooting.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_120.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_130.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_131.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_132.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_133.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_140.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_141.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_150.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_152.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_153.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_154.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_160.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_161.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_162.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_163.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_170.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_171.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_172.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_200.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_201.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_202.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_203.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_210.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_211.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_212.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_213.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_214.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_220.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_221.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_222.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_223.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_300.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_301.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_302.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_303.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_304.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_305.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_306.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_307.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_310.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrade_b11.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/installation/upgrading.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/benchmark.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/caching.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/calendar.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/cart.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/config.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/email.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/encrypt.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/encryption.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/file_uploading.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/form_validation.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/ftp.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/image_lib.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/input.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/javascript.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/language.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/loader.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/migration.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/output.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/pagination.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/parser.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/security.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/sessions.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/table.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/trackback.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/typography.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/unit_testing.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/uri.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/user_agent.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/xmlrpc.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/libraries/zip.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/license.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/overview/appflow.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/overview/at_a_glance.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/overview/features.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/overview/getting_started.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/overview/goals.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/overview/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/overview/mvc.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/tutorial/conclusion.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/tutorial/create_news_items.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/tutorial/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/tutorial/news_section.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lession6/user_guide_src/source/tutorial/static_pages.rst" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lession6/application/controllers/detail.php" afterPath="$PROJECT_DIR$/lession6/application/controllers/detail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lession6/application/controllers/home.php" afterPath="$PROJECT_DIR$/lession6/application/controllers/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lession6/application/models/detail_model.php" afterPath="$PROJECT_DIR$/lession6/application/models/detail_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lession6/application/views/detail_view.php" afterPath="$PROJECT_DIR$/lession6/application/views/detail_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lession6/application/views/home_view.php" afterPath="$PROJECT_DIR$/lession6/application/views/home_view.php" />
     </list>
     <ignored path="Training_PHP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,109 +604,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession6/application/controllers/create.php">
+      <file leaf-file-name="Post.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project_output/application/controllers/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.45238096">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession6/application/controllers/detail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home_view.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lession6/application/views/home_view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40201005">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession6/application/config/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.0">
-              <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession6/application/models/create_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession6/application/views/create_view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5">
-              <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession5/views/admin/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125">
-              <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about_model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession6/application/models/about_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession6/application/controllers/about.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail_model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession6/application/models/detail_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.375">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <marker date="1460516019000" expanded="true" signature="433:478" placeholder="SELECT id, t... articles" />
-                <marker date="1460516019000" expanded="true" signature="433:489" placeholder="SELECT title... articles" />
-                <marker date="1460516019000" expanded="true" signature="433:490" placeholder="SELECT title... articles" />
-                <marker date="1460516019000" expanded="true" signature="433:493" placeholder="SELECT title... articles" />
-                <marker date="1460516019000" expanded="true" signature="433:496" placeholder="SELECT title... articles" />
-                <marker date="1460516019000" expanded="true" signature="433:497" placeholder="SELECT title... articles" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -152,57 +622,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lession3/index.php" />
-        <option value="$PROJECT_DIR$/lession3/views/error.php" />
-        <option value="$PROJECT_DIR$/lession3/models/Data.php" />
-        <option value="$PROJECT_DIR$/lession3/controllers/DetailController.php" />
-        <option value="$PROJECT_DIR$/lession3/controllers/Controller.php" />
-        <option value="$PROJECT_DIR$/lession4/.htaccess.php" />
-        <option value="$PROJECT_DIR$/lession3/helper/autoload.php" />
-        <option value="$PROJECT_DIR$/lession3/views/detail/index.php" />
-        <option value="$PROJECT_DIR$/lession4/views/home/index.php" />
-        <option value="$PROJECT_DIR$/lession4/views/detail/index.php" />
-        <option value="$PROJECT_DIR$/lession4/.htaccess" />
-        <option value="$PROJECT_DIR$/lession4/index.php" />
-        <option value="$PROJECT_DIR$/lession4/models/Data.php" />
-        <option value="$PROJECT_DIR$/lession5/.htaccess" />
-        <option value="$PROJECT_DIR$/lession5/views/detail/index.php" />
-        <option value="$PROJECT_DIR$/lession5/models/Data.php" />
-        <option value="$PROJECT_DIR$/lession5/controllers/AboutController.php" />
-        <option value="$PROJECT_DIR$/lession5/views/about/index.php" />
-        <option value="$PROJECT_DIR$/lession5/index.php" />
-        <option value="$PROJECT_DIR$/lession5/controllers/DetailController.php" />
-        <option value="$PROJECT_DIR$/lession5/controllers/Controller.php" />
-        <option value="$PROJECT_DIR$/lession5/views/admin/index.php" />
-        <option value="$PROJECT_DIR$/lession5/views/home/index.php" />
-        <option value="$PROJECT_DIR$/lession5/controllers/AdminController.php" />
-        <option value="$PROJECT_DIR$/lession5/models/Database.php" />
-        <option value="$PROJECT_DIR$/lession6/system/core/CodeIgniter.php" />
-        <option value="$PROJECT_DIR$/lession6/system/core/Common.php" />
-        <option value="$PROJECT_DIR$/lession5/controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/lession6/vendor/codeigniter/framework/application/config/config.php" />
-        <option value="$PROJECT_DIR$/lession6/application/config/database.php" />
-        <option value="$PROJECT_DIR$/lession6/application/models/database_model.php" />
-        <option value="$PROJECT_DIR$/lession6/application/models/home_model.php" />
-        <option value="$PROJECT_DIR$/lession6/application/controllers/Detail.php" />
-        <option value="$PROJECT_DIR$/lession6/application/controllers/Home.php" />
+        <option value="$PROJECT_DIR$/lession6/application/views/helper/header.php" />
+        <option value="$PROJECT_DIR$/lession6/application/models/post_model.php" />
+        <option value="$PROJECT_DIR$/lession7/application/helpers/Controller.php" />
+        <option value="$PROJECT_DIR$/lession6/application/models/Controller.php" />
+        <option value="$PROJECT_DIR$/lession6/application/helpers/Controller.php" />
         <option value="$PROJECT_DIR$/lession6/application/config/autoload.php" />
-        <option value="$PROJECT_DIR$/lession6/index.php" />
         <option value="$PROJECT_DIR$/lession6/application/config/config.php" />
-        <option value="$PROJECT_DIR$/lession6/application/controllers/about.php" />
-        <option value="$PROJECT_DIR$/lession6/application/.htaccess" />
-        <option value="$PROJECT_DIR$/lession6/.htaccess" />
-        <option value="$PROJECT_DIR$/lession6/application/views/about_view.php" />
-        <option value="$PROJECT_DIR$/lession6/application/controllers/home.php" />
-        <option value="$PROJECT_DIR$/lession6/application/config/routes.php" />
-        <option value="$PROJECT_DIR$/lession6/application/models/detail_model.php" />
-        <option value="$PROJECT_DIR$/lession6/application/views/detail_view.php" />
-        <option value="$PROJECT_DIR$/lession6/application/models/about_model.php" />
-        <option value="$PROJECT_DIR$/lession6/application/models/create_model.php" />
-        <option value="$PROJECT_DIR$/lession6/application/views/create_view.php" />
-        <option value="$PROJECT_DIR$/lession6/application/controllers/create.php" />
-        <option value="$PROJECT_DIR$/lession6/application/controllers/detail.php" />
-        <option value="$PROJECT_DIR$/lession6/application/views/home_view.php" />
+        <option value="$PROJECT_DIR$/lession6/application/views/post/index.php" />
+        <option value="$PROJECT_DIR$/lession7/application/views/post/index.phtml" />
+        <option value="$PROJECT_DIR$/lession7/application/controllers/Post.php" />
+        <option value="$PROJECT_DIR$/lession7/public/index.php" />
+        <option value="$PROJECT_DIR$/lession6/application/controllers/blog.php" />
+        <option value="$PROJECT_DIR$/lession7/application/views/index.phtml" />
+        <option value="$PROJECT_DIR$/lession7/application/models/Node.php" />
+        <option value="$PROJECT_DIR$/lession8/application/config/database.php" />
+        <option value="$PROJECT_DIR$/lession8/application/helpers/Model.php" />
+        <option value="$PROJECT_DIR$/lession8/css/menu.css" />
+        <option value="$PROJECT_DIR$/lession8/application/views/post/detail.phtml" />
+        <option value="$PROJECT_DIR$/lession8/application/views/profile.phtml" />
+        <option value="$PROJECT_DIR$/lession8/application/views/docs.phtml" />
+        <option value="$PROJECT_DIR$/lession8/application/views/login.phtml" />
+        <option value="$PROJECT_DIR$/lession8/application/views/login/index.phtml" />
+        <option value="$PROJECT_DIR$/lession8/application/models/Node.php" />
+        <option value="$PROJECT_DIR$/lession8/application/config/config.php" />
+        <option value="$PROJECT_DIR$/lession8/application/controllers/VerifyLogin.php" />
+        <option value="$PROJECT_DIR$/lession8/application/views/register/register.phtml" />
+        <option value="$PROJECT_DIR$/lession8/application/controllers/Regiter.php" />
+        <option value="$PROJECT_DIR$/lession8/public/index.php" />
+        <option value="$PROJECT_DIR$/lession8/application/views/register/index.phtml" />
+        <option value="$PROJECT_DIR$/lession8/application/controllers/Verify.php" />
+        <option value="$PROJECT_DIR$/lession8/application/models/User.php" />
+        <option value="$PROJECT_DIR$/lession8/application/views/login/index.php" />
+        <option value="$PROJECT_DIR$/lession8/application/views/register/index.php" />
+        <option value="$PROJECT_DIR$/lession8/application/config/autoload.php" />
+        <option value="$PROJECT_DIR$/lession8/application/views/post/index.phtml" />
+        <option value="$PROJECT_DIR$/lession8/application/views/index.phtml" />
+        <option value="$PROJECT_DIR$/lession8/application/models/Post_model.php" />
+        <option value="$PROJECT_DIR$/lession8/application/controllers/Register.php" />
+        <option value="$PROJECT_DIR$/lession8/application/controllers/Login.php" />
+        <option value="$PROJECT_DIR$/lession8/application/controllers/Post.php" />
+        <option value="$PROJECT_DIR$/lession8/application/helpers/helper.php" />
+        <option value="$PROJECT_DIR$/lession8/application/controllers/About.php" />
+        <option value="$PROJECT_DIR$/lession8/application/views/post/index.php" />
+        <option value="$PROJECT_DIR$/lession8/application/helpers/Controller.php" />
+        <option value="$PROJECT_DIR$/lession8/application/views/profile.php" />
+        <option value="$PROJECT_DIR$/lession8/application/views/welcome.php" />
+        <option value="$PROJECT_DIR$/lession8/application/views/index.php" />
+        <option value="$PROJECT_DIR$/lession8/application/controllers/Profile.php" />
+        <option value="$PROJECT_DIR$/lession8/application/views/profile/index.php" />
+        <option value="$PROJECT_DIR$/lession8/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/lession8/application/controllers/Docs.php" />
       </list>
     </option>
   </component>
@@ -216,10 +686,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="54" />
-    <option name="width" value="1201" />
-    <option name="height" value="744" />
+    <option name="x" value="46" />
+    <option name="y" value="23" />
+    <option name="width" value="1212" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -246,6 +716,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,7 +736,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lession6" />
+              <option name="myItemId" value="project_output" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,7 +750,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lession6" />
+              <option name="myItemId" value="project_output" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -296,51 +768,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lession6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training_PHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training_PHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lession6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training_PHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training_PHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lession6" />
+              <option name="myItemId" value="project_output" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -364,18 +792,30 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Training-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Codeigniter-login-logout-register-master" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="PHPUnit.controllers">
+  <component name="RunManager" selected="PHPUnit.views">
     <configuration default="false" name="controllers" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$/lession6/application/controllers" />
+      <method />
+    </configuration>
+    <configuration default="false" name="views" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/lession8/application/views" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#PerlConfigurationType" factoryName="Perl">
+      <option name="SCRIPT_PATH" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="CHARSET" />
+      <option name="USE_ALTERNATIVE_SDK" value="false" />
+      <option name="ALTERNATIVE_SDK_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -406,12 +846,14 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="PHPUnit.controllers" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.views" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.controllers" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.views" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.controllers" />
       </list>
     </recent_temporary>
   </component>
@@ -429,15 +871,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="54" width="1201" height="744" extended-state="0" />
+    <frame x="46" y="23" width="1212" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2298085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22854786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -446,6 +887,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -465,412 +907,44 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lession4/views/home/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22613065">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession4/views/detail/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07537688">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession4/models/Data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.625">
-          <caret line="115" column="2" selection-start-line="115" selection-start-column="2" selection-end-line="117" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession4/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07035176">
-          <caret line="689" column="81" selection-start-line="689" selection-start-column="81" selection-end-line="689" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_defines.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17085427">
-          <caret line="704" column="34" selection-start-line="704" selection-start-column="34" selection-end-line="704" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/controllers/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/views/matches_templates/controller_template.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16908212">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/views/matches_templates/migration_template.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/views/matches_templates/model_template.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/views/matches_templates/view_template.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/system/core/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07035176">
-          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/helper/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20100503">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.75">
-          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125">
-          <caret line="13" column="80" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/views/home/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32663316">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/system/helpers/url_helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42211056">
-          <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/license.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/config/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4087102">
-          <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/system/core/CodeIgniter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="21.375">
-          <caret line="416" column="31" selection-start-line="416" selection-start-column="31" selection-end-line="416" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5">
-          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lession5/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/views/about/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42713568">
-          <caret line="53" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="971" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31400967">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/views/about_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="939" column="31" selection-start-line="939" selection-start-column="31" selection-end-line="939" selection-end-column="31" />
-          <folding>
-            <marker date="1460513493000" expanded="true" signature="45126:45653" placeholder="..." />
-            <marker date="1460513493000" expanded="true" signature="45279:45416" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession3/controllers/DetailController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/views/errors/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2763819">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/models/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="18.25">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding>
-            <marker date="1460370745000" expanded="true" signature="1124:1226" placeholder="INSERT INTO articles... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/controllers/AboutController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.875">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession2/controllers/detail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/models/home_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="16" />
-          <folding>
-            <marker date="1460453935000" expanded="true" signature="351:400" placeholder="SELECT id, t... articles" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/models/database_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.791666">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/views/detail/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession5/controllers/DetailController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.875">
-          <caret line="27" column="9" selection-start-line="22" selection-start-column="7" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <marker date="1460364962000" expanded="true" signature="200:239" placeholder="SELECT id, t... articles" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/controllers/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/views/detail_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/models/about_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/models/create_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lession5/views/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125">
-          <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="50" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession5/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4047619">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession5/controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7619048">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/views/create_view.php">
+    <entry file="file://$PROJECT_DIR$/project_output/application/controllers/Post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/controllers/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/controllers/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.0">
-          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/models/detail_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <marker date="1460516019000" expanded="true" signature="433:478" placeholder="SELECT id, t... articles" />
-            <marker date="1460516019000" expanded="true" signature="433:489" placeholder="SELECT title... articles" />
-            <marker date="1460516019000" expanded="true" signature="433:490" placeholder="SELECT title... articles" />
-            <marker date="1460516019000" expanded="true" signature="433:493" placeholder="SELECT title... articles" />
-            <marker date="1460516019000" expanded="true" signature="433:496" placeholder="SELECT title... articles" />
-            <marker date="1460516019000" expanded="true" signature="433:497" placeholder="SELECT title... articles" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/controllers/detail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession6/application/views/home_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40201005">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.45238096">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
